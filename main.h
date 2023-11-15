@@ -2,6 +2,7 @@
 #define MAIN_H
 #include <stdio.h>
 #include <stdarg.h>
+#include <stddef.h>
 /**
  * struct specifier - struct specifier
  * @valid: the valid character.

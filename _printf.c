@@ -1,6 +1,4 @@
 #include <stdarg.h>
-#include <stdio.h>
--printf.c
 #include <stdlib.h>
 #include "main.h"
 #include <stddef.h>
@@ -50,18 +48,4 @@ int _printf(const char *format, ...)
 		return (count);
 	}
 	return (-1);
-}
-
--putchar.c
-#include <unistd.h>
-/**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
 }
